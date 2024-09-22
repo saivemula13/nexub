@@ -1,0 +1,26 @@
+.task-status{
+    border: 1px solid var(--Stroke, #F0F0F0);
+   border-radius: 8px;
+   .right-section{
+    background-color: #FFFAF0;
+   }
+    h5{
+        font-size: var(--clamp14);
+        font-weight: 600;
+        color: #181A2B;
+    }
+    h6{
+        font-size: var(--clamp12);
+        font-weight: 600;
+        color: #181A2B;
+        .blue{
+            color: #2695FB;
+        }
+        .orange{
+            color: #FF8F50;
+        }
+        .cream{
+            color: #F9A602;
+        }
+    }
+}

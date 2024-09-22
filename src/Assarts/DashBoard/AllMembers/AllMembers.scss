@@ -1,0 +1,52 @@
+.cards-section {
+    max-height: 420px;
+    overflow-y: auto;
+
+    .card-details {
+        border: 1px solid var(--Stroke, #F0F0F0);
+        border-radius: 8px;
+        overflow-y: auto;
+
+        h5 {
+            font-size: var(--clamp14);
+            font-weight: 600;
+            color: #181A2B;
+        }
+
+        p {
+            font-size: var(--clamp12);
+            font-weight: 600;
+            color: #181A2B;
+
+            .high {
+                background-color: #FFF6F6;
+                color: #FF6363;
+                border-radius: 4px;
+            }
+
+            .low {
+                background-color: #ECFFF4;
+                color: #1CCE66;
+                border-radius: 4px;
+            }
+
+            .medium {
+                background-color: #FDF4ED;
+                color: #F9A602;
+                border-radius: 4px;
+            }
+        }
+
+        &.complete {
+            background-color: #ECFFF4;
+
+            h5 {
+                color: #1CCE66;
+                text-decoration: line-through;
+            }
+        }
+        &.failed {
+            background-color: #FFF6F6;
+        }
+    }
+}

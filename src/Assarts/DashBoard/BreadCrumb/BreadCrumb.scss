@@ -1,0 +1,29 @@
+.custom-bread-crumb {
+    ul {
+        list-style: none;
+
+        li {
+            a {
+                text-decoration: unset;
+                color: #5A5C60;
+            }
+
+            &:first-child {
+                a {
+                    span {
+                        display: none;
+                    }
+                }
+            }
+
+            &:last-child {
+                a {
+                    color: #181A2B;
+                    display: flex;
+                    font-weight: 600;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

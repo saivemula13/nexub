@@ -1,0 +1,29 @@
+.net-profit-card{
+    h1{
+        font-size: var(--clamp45);
+    }
+    .green {
+        font-size: var(--clamp15);
+        font-weight: bold;
+        position: relative;
+        color: #6de853;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 12px;
+            height: 12px;
+            left: -19px;
+            bottom: 0;
+            background-color: #6de853;
+            clip-path: polygon(50% 0%, 0 50%, 100% 50%);
+        }
+    }
+    .goal-complete{
+        width: 90px;
+    }
+    h6{
+        font-size: var(--clamp12);
+        color: var(--color-gray);
+    }
+}

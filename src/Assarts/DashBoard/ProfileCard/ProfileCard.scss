@@ -1,0 +1,61 @@
+.profile-card {
+    background-color: #F2F9FF;
+    border-radius: 8px;
+    
+    p {
+        font-size: var(--clamp12);
+        font-weight: 600;
+        color: #51AAFC;
+    }
+    
+    &.cream {
+        background-color: #FFFAF0;
+        p {
+            color: #F9A602;
+        }
+        .profile-div {
+            .profile-ring {
+                svg{
+                    rect{
+                        stroke:#F9A602;
+                    }
+                }
+            }
+        }
+    }
+
+    .profile-div {
+        img {
+            position: relative;
+            z-index: 5;
+        }
+
+        .profile-ring {
+            z-index: 4;
+        }
+
+        .profile-dot {
+            top: 90%;
+            left: 90%;
+            z-index: 6;
+        }
+    }
+
+    h5 {
+        font-size: var(--clamp16);
+        font-weight: 600;
+        color: #181A2B;
+    }
+
+    button {
+        font-size: var(--clamp12);
+        font-weight: 600;
+        color: #181A2B;
+        border: 1px solid #2695FB;
+        box-shadow: 0px 4px 6px 0px #9155FD1A;
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        display: block;
+        width: 100%;
+    }
+}

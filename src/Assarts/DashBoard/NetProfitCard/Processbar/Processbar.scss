@@ -1,0 +1,11 @@
+.pocess-bar{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    h6{
+        span{
+            font-size: var(--clamp20);
+            font-weight: 700;
+        }
+    }
+}

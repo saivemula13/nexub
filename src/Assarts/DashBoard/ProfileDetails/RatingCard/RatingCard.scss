@@ -1,0 +1,19 @@
+.rating-card{
+    border: 1px solid var(--Stroke, #F0F0F0);
+    border-radius: 8px;
+    h5{
+        color: #181A2B;
+        font-size: var(--clamp16);
+        font-weight: 600;
+    }
+    p{
+        color: #5A5C60;
+        font-size: var(--clamp12);
+        font-weight: 400;
+        &.blue{
+            color: #2695FB;
+            font-size: var(--clamp12);
+            font-weight: 600;
+        }
+    }
+}
