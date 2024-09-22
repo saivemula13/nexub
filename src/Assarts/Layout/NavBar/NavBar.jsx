@@ -11,7 +11,7 @@ function NavBar() {
     return (
         <Navbar expand="sm" className='p-o'>
             <Container fluid>
-                <Link className="navbar-brand" to="/dashboard">
+                <Link className="navbar-brand" to="/project-frontend">
                     <h2 className='mb-0'>UI Frontend</h2>
                     <p className='text-end mb-0'>Test</p>
                 </Link>

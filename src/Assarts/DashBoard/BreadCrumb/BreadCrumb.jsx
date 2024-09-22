@@ -7,7 +7,7 @@ function BreadCrumb({ data }) {
     return (
         <section className='custom-bread-crumb'>
             <nav aria-label="breadcrumb">
-                <ul className='d-flex ps-0 align-items-center'>
+                <ul className='d-flex flex-wrap ps-0 align-items-center'>
                     {data?.map((item, i) => {
                         console.log(item);
                         return (

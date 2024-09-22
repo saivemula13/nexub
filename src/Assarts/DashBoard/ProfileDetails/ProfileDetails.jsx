@@ -10,15 +10,16 @@ import BreadCrumb from '../BreadCrumb/BreadCrumb'
 export const ProfileDetails = () => {
     const [breadCrumbData, setbreadCrumbData] = useState([
         { text: "Project Frontend", path: "" },
+        { text: "Project Members", path: "/project-frontend" },
         { text: "Project Members", path: "" }
     ])
     return (
         <section className='profile-details'>
             <BreadCrumb data={breadCrumbData} />
-            <div className="d-flex mb-4 align-items-center">
-                <h2 className='mb-0 me-4'>Employee Details</h2>
+            <div className="d-flex mb-4 justify-content-center justify-content-sm-start align-items-center">
+                <h2 className='mb-0 me-4 '>Employee Details</h2>
             </div>
-            <div className='d-flex align-items-center'>
+            <div className='d-sm-flex text-center text-sm-start align-items-center'>
                 <img src={profileDetails1} className='img-fluid' alt="" />
                 <div className='ms-3'>
                     <span className='menber px-2 mb-2 d-inline-block'>Member</span>

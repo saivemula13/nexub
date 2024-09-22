@@ -7,8 +7,8 @@ import { AccordionArrow, MenuIconfive, MenuIconfour, MenuIconOne, MenuIconThree,
 function Sidebar() {
     return (
         <section className='custom-sidebar' justify variant="tabs" defaultActiveKey="/home">
-            <div className='item'>
-                <NavLink to="/dashboard" className="pe-3 mb-3 mx-2">
+            <div className='item mt-4'>
+                <NavLink to="/project-frontend" className="pe-3 mb-3 mx-2">
                     <span className='me-2'>
                         <MenuIconOne />
                     </span>
@@ -38,14 +38,6 @@ function Sidebar() {
                     </Accordion.Item>
                 </Accordion>
             </div>
-            {/* <div className='item'>
-        <NavLink to="/settings" className="pe-3 mb-3 mx-2">
-            <span className='me-2'>
-                <MenuIconTwo />
-            </span>
-            Menu Two
-        </NavLink>
-    </div> */}
             <div className='item'>
                 <NavLink to="/note" className="pe-3 mb-3 mx-2">
                     <span className='me-2'>
@@ -67,11 +59,236 @@ function Sidebar() {
                     <span className='me-2'>
                         <MenuIconfive />
                     </span>
-                    Menu Five
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item mb-3'>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            <a className="pe-3 mx-2">
+                                <span className='accordion-arrow bg-transparent position-absolute me-0 top-50'><AccordionArrow /></span>
+                                <span className='me-2'>
+                                    <MenuIconTwo />
+                                </span>
+                                Menu disabled
+                            </a>
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two one
+                            </NavLink>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two Two
+                            </NavLink>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </div>    <div className='item mb-3'>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            <a className="pe-3 mx-2">
+                                <span className='accordion-arrow bg-transparent position-absolute me-0 top-50'><AccordionArrow /></span>
+                                <span className='me-2'>
+                                    <MenuIconTwo />
+                                </span>
+                                Menu disabled
+                            </a>
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two one
+                            </NavLink>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two Two
+                            </NavLink>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item mb-3'>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            <a className="pe-3 mx-2">
+                                <span className='accordion-arrow bg-transparent position-absolute me-0 top-50'><AccordionArrow /></span>
+                                <span className='me-2'>
+                                    <MenuIconTwo />
+                                </span>
+                                Menu disabled
+                            </a>
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two one
+                            </NavLink>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two Two
+                            </NavLink>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </div>
+            <div className='item mb-3'>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            <a className="pe-3 mx-2">
+                                <span className='accordion-arrow bg-transparent position-absolute me-0 top-50'><AccordionArrow /></span>
+                                <span className='me-2'>
+                                    <MenuIconTwo />
+                                </span>
+                                Menu disabled
+                            </a>
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two one
+                            </NavLink>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two Two
+                            </NavLink>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </div>
+            <div className='item mb-3'>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            <a className="pe-3 mx-2">
+                                <span className='accordion-arrow bg-transparent position-absolute me-0 top-50'><AccordionArrow /></span>
+                                <span className='me-2'>
+                                    <MenuIconTwo />
+                                </span>
+                                Menu Two
+                            </a>
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two one
+                            </NavLink>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two Two
+                            </NavLink>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </div>
+            <div className='item mb-3'>
+                <Accordion>
+                    <Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                            <a className="pe-3 mx-2">
+                                <span className='accordion-arrow bg-transparent position-absolute me-0 top-50'><AccordionArrow /></span>
+                                <span className='me-2'>
+                                    <MenuIconTwo />
+                                </span>
+                                Menu Two
+                            </a>
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two one
+                            </NavLink>
+                            <NavLink to="" className="py-0 pe-3 mx-2 ms-5">
+                                Menu Two Two
+                            </NavLink>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                </Accordion>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
+                </a>
+            </div>
+            <div className='item'>
+                <a className="pe-3 mb-3 mx-2">
+                    <span className='me-2'>
+                        <MenuIconfive />
+                    </span>
+                    Menu diasbled
                 </a>
             </div>
         </section>
     )
 }
 
-export default Sidebar
+export default Sidebar 

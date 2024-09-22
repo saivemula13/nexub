@@ -7,8 +7,10 @@ export const Layout = () => {
     return (
         <>
             <nav><NavBar /></nav>
-            <Sidebar />
-            <DashBoard/>
+            <div className='d-none d-md-block'>
+                <Sidebar />
+            </div>
+            <DashBoard />
         </>
     )
 }

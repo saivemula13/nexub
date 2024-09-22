@@ -6,7 +6,7 @@ export const TaskStatus = () => {
     return (
         <section className='task-status'>
             <Row className='align-items-center'>
-                <Col lg="5" className='d-flex align-items-center justify-content-center'>
+                <Col lg="5" className='d-flex py-4 py-lg-0 align-items-center justify-content-center'>
                     <span>
                         <TaskCompletionStatusIcon />
                     </span>

@@ -1,0 +1,13 @@
+.pagenation{
+    h5{
+        font-size: var(--clamp12);
+        color: #656565;
+        font-weight: 600;
+    }
+    .form-select{
+        max-width: 75px;
+        &:focus{
+            box-shadow: unset;
+        }
+    }
+}
